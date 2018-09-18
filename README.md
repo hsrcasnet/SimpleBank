@@ -8,8 +8,7 @@ A simple banking ecosystem to demonstrate unit testing and test driven developme
 - 
 ##### Step 1: Implement Features
 - Branch 1: withtests
-- The branch contains working unit tests.
-- Most BankTests are failing with NotImplementedExceptions.
+- The branch contains the code for all unit tests. Most BankTests are failing with NotImplementedExceptions.
 - **Tasks:** Implement all Bank methods in order to fix all unit tests.
 
 ##### Step 2: Bug fixing using TDD
