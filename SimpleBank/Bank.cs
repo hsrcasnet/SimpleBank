@@ -93,13 +93,8 @@ namespace SimpleBank
         /// </summary>
         public void Transfer(string sourceAccountId, string targetAccountId, Money amount)
         {
-            var sourceAccount = this.GetAccountById(sourceAccountId);
-
-            if (ValidAccountDepositTransaction(amount) && ValidAccountWithdrawTransaction(sourceAccount, amount))
-            {
-                this.Withdraw(sourceAccountId, amount);
-                this.Deposit(targetAccountId, amount);
-            }
+            this.Withdraw(sourceAccountId, amount);
+            this.Deposit(targetAccountId, amount);
         }
 
         private static bool ValidPersonWithdrawTransaction(Person person, Money amount)
