@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 
 namespace SimpleBank.Tests
@@ -10,6 +11,7 @@ namespace SimpleBank.Tests
             // Arrange
 
             // Act
+            throw new InvalidOperationException("Test");
 
             // Assert
         }
