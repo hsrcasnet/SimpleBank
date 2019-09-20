@@ -3,7 +3,7 @@ using Xunit;
 
 namespace SimpleBank.Tests
 {
-    public class AccountTest
+    public class AccountTests
     {
         [Fact]
         public void ShouldCreateAccount()
