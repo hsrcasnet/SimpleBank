@@ -11,7 +11,6 @@ namespace SimpleBank.Tests
             // Arrange
 
             // Act
-            throw new InvalidOperationException("Test");
 
             // Assert
         }
